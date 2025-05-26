@@ -23,7 +23,7 @@ export function LanguageToggle() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className="h-10 w-10">
+        <Button className="h-10 w-10">
           <Languages className="h-5 w-5" />
         </Button>
       </DropdownMenuTrigger>
