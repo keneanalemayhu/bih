@@ -21,15 +21,18 @@ bookexchange/
 │   │   │   ├── layout.tsx
 │   │   │   └── page.tsx
 │   │   │
-│   │   ├── books/
+│   │   ├── dashboard/
+│   │   │   ├── books/
 │   │   │   ├── profile/
 │   │   │   ├── requests/
-│   │   │   │
-│   │   │   ├── globals.css
-│   │   │   ├── layout.tsx
-│   │   │   ├── page.tsx
-│   │   │   └── providers.tsx
+│   │   │   ├── data.json
+│   │   │   └── page.tsx
 │   │   │
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── providers.tsx
+│   │    
 │   ├── components/
 │   │   ├── common/
 │   │   │   ├── Header.tsx

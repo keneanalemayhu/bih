@@ -3,14 +3,10 @@
 import * as React from "react"
 import {
   IconBooks,
-  IconCamera,
   IconDashboard,
-  IconFileAi,
-  IconFileDescription,
   IconInnerShadowTop,
   IconGitPullRequest,
 } from "@tabler/icons-react"
-
 import { NavMain } from "@/components/common/sidebar/nav-main"
 import { NavUser } from "@/components/common/sidebar/nav-user"
 import {
@@ -32,66 +28,18 @@ const data = {
   navMain: [
     {
       title: "Dashboard",
-      url: "#",
+      url: "/dashboard/",
       icon: IconDashboard,
     },
     {
       title: "Books",
-      url: "#",
+      url: "/dashboard/books/",
       icon: IconBooks,
     },
     {
       title: "requests",
-      url: "#",
+      url: "/dashboard/requests/",
       icon: IconGitPullRequest,
-    },
-  ],
-  navClouds: [
-    {
-      title: "Capture",
-      icon: IconCamera,
-      isActive: true,
-      url: "#",
-      items: [
-        {
-          title: "Active Proposals",
-          url: "#",
-        },
-        {
-          title: "Archived",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Proposal",
-      icon: IconFileDescription,
-      url: "#",
-      items: [
-        {
-          title: "Active Proposals",
-          url: "#",
-        },
-        {
-          title: "Archived",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Prompts",
-      icon: IconFileAi,
-      url: "#",
-      items: [
-        {
-          title: "Active Proposals",
-          url: "#",
-        },
-        {
-          title: "Archived",
-          url: "#",
-        },
-      ],
     },
   ],
 }
@@ -108,7 +56,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             >
               <a href="#">
                 <IconInnerShadowTop className="!size-5" />
-                <span className="text-base font-semibold">Acme Inc.</span>
+                <span className="text-base font-semibold">Book Exchange</span>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>
