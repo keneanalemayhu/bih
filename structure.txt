@@ -21,11 +21,8 @@ bookexchange/
 │   │   │   ├── layout.tsx
 │   │   │   └── page.tsx
 │   │   │
-│   │   ├── dashboard/
-│   │   │   ├── books/
-│   │   │   ├── profile/
-│   │   │   ├── requests/
-│   │   │   ├── data.json
+│   │   ├── user/
+│   │   │   ├── layout.tsx
 │   │   │   └── page.tsx
 │   │   │
 │   │   ├── globals.css

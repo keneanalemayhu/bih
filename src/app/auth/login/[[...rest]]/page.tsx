@@ -25,7 +25,7 @@ export default function LoginPage() {
           path="/auth/login"
           routing="path"
           signUpUrl="/auth/signup"
-          forceRedirectUrl="/dashboard"
+          forceRedirectUrl="/user"
           appearance={{
             baseTheme: resolvedTheme === "dark" ? dark : undefined,
           }}
